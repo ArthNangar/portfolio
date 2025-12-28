@@ -71,7 +71,7 @@ const Projects = () => {
           </h2>
           <div className="h-1 w-24 gradient-bg mx-auto rounded-full" />
           <p className="text-lg text-muted-foreground mt-6 max-w-2xl mx-auto">
-            A selection of my recent work showcasing different technologies and design approaches
+            My recent work showcasing different technologies and design approaches
           </p>
         </motion.div>
 
