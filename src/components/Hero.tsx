@@ -12,7 +12,6 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated Background */}
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 opacity-20"
@@ -26,7 +25,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(147,51,234,0.1),transparent_50%)]" />
       </div>
 
-      {/* Floating Elements */}
       <motion.div
         animate={{
           y: [0, -20, 0],
@@ -50,25 +48,21 @@ const Hero = () => {
         className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"
       />
 
-      {/* Content */}
-      <div className="container mx-auto px-4 z-10">
+      <div className="container mx-auto px-4 z-10 mt-20">
         <div className="text-center space-y-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            {/* 1. GREETING (Smallest Text) */}
             <h4 className="text-3xl font-semibold text-white mb-2">
               Hello, It's Me
             </h4>
 
-            {/* 2. NAME (Largest, Primary Text) */}
             <h3 className="text-4xl md:text-6xl font-bold mb-6 font-space text-primary leading-none">
               Arth Nangar.
             </h3>
 
-            {/* 3. TRANSITIONING ROLE (Medium Text with Accent) */}
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-light min-h-[4rem]">
               <span className="text-white font-medium mr-2">I'm a</span>
               <TypeAnimation
