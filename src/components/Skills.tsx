@@ -42,7 +42,7 @@ const Skills = () => {
     {
       icon: Globe,
       title: " Tools and Deployment",
-      description: "Vercel, Docker, CI/CD Pipelines, Postman",
+      description: "Git, Github, Vercel, Docker, CI/CD Pipelines, Postman",
       color: "from-accent to-secondary",
     },
   ];
@@ -73,11 +73,11 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text font-space">
-            Skills & Expertise
+            Technical Skills
           </h2>
           <div className="h-1 w-24 gradient-bg mx-auto rounded-full" />
           <p className="text-lg text-muted-foreground mt-6 max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications
+            Technologies and tools I’ve used to build real-world applications.
           </p>
         </motion.div>
 
