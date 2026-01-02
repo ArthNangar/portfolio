@@ -121,7 +121,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="text-lg px-8 py-6 border-secondary/50 hover:bg-secondary/10"
-              onClick={() => window.open('https://drive.google.com/file/d/1f99ElmznSWMoGFJNaAovNYuxNDlqhuaJ/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1HR71qwuMuMjnktSQnr3uBc69CAvC_QRr/view?usp=sharing', '_blank')}
             >
               Resume
             </Button>

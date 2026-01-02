@@ -26,7 +26,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(147,51,234,0.1),transparent_50%)]" />
       </div>
 
-      {/* Floating Elements */}
       <motion.div
         animate={{
           y: [0, -20, 0],
@@ -50,27 +49,22 @@ const Hero = () => {
         className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"
       />
 
-      {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          {/* Left Side - Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             className="space-y-6 text-left order-2 md:order-1"
           >
-            {/* Greeting */}
             <h4 className="text-2xl md:text-3xl font-semibold text-foreground">
               Hello, It's Me
             </h4>
 
-            {/* Name */}
             <h1 className="text-4xl md:text-6xl font-bold font-space text-primary leading-none">
               Arth Nangar
             </h1>
 
-            {/* Role Animation */}
             <h2 className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground font-light">
               <span className="text-foreground font-medium mr-2">I'm a</span>
               <TypeAnimation
@@ -93,7 +87,6 @@ const Hero = () => {
               />
             </h2>
 
-            {/* About Description */}
             <div className="space-y-4">
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm a passionate <span className="gradient-text font-semibold">Software Developer and a Graduate student in Computer Science.</span> My passion lies in building functional and scalable applications.
@@ -103,7 +96,6 @@ const Hero = () => {
               </p>
             </div>
 
-            {/* Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -122,14 +114,13 @@ const Hero = () => {
                 size="lg"
                 variant="outline"
                 className="text-lg px-8 py-6 border-secondary/50 hover:bg-secondary/10"
-                onClick={() => window.open('https://drive.google.com/file/d/1f99ElmznSWMoGFJNaAovNYuxNDlqhuaJ/view?usp=sharing', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1HR71qwuMuMjnktSQnr3uBc69CAvC_QRr/view?usp=sharing', '_blank')}
               >
                 Resume
               </Button>
             </motion.div>
           </motion.div>
 
-          {/* Right Side - Profile Image */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}

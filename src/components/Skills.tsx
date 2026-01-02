@@ -18,27 +18,9 @@ const Skills = () => {
     {
       icon: Database,
       title: "Backend Development",
-      description: "C/C+, C#, Node.js, Python, PostgreSQL, MongoDB, Microsoft SQL Server, APIs",
+      description: "C/C++, C#, Python, .Net Core, Nodejs, PostgreSQL, MongoDB, Microsoft SQL Server, APIs",
       color: "from-secondary to-accent",
     },
-    // {
-    //   icon: Palette,
-    //   title: "UI/UX Design",
-    //   description: "Figma, Adobe XD, Responsive Design, Animations",
-    //   color: "from-accent to-primary",
-    // },
-    // {
-    //   icon: Smartphone,
-    //   title: "Mobile Development",
-    //   description: "React Native, Flutter, Progressive Web Apps",
-    //   color: "from-primary-glow to-secondary",
-    // },
-    // {
-    //   icon: Zap,
-    //   title: "Performance",
-    //   description: "Optimization, SEO, Web Vitals, Speed",
-    //   color: "from-secondary to-primary",
-    // },
     {
       icon: Globe,
       title: " Tools and Deployment",
