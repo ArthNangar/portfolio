@@ -43,13 +43,14 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="text-2xl  gradient-text font-space"
           >
             Arth Nangar
-          </motion.div>
+          </motion.div> */}
+          <div className="text-2xl gradient-text font-bold">AN</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
