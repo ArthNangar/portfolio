@@ -50,7 +50,7 @@ const Projects = () => {
       tech: ["Python", "OpenCV", "MediaPipe", "NumPy"],
       gradient: "from-cyan-500 to-blue-600",
       sourceCode: "https://github.com/ArthNangar/motion_canvas",
-      liveDemo: "Local Application",
+      liveDemo: "https://drive.google.com/file/d/12UiJu6vCIlgDTqx8l0ccrJx0KF3AT0NP/view?usp=sharing",
       image: null as string | null,
     },
   ];
