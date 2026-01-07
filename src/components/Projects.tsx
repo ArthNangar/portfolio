@@ -21,7 +21,7 @@ const Projects = () => {
       tech: ["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Stripe"],
       gradient: "from-purple-600 to-indigo-600",
       sourceCode: "https://github.com/ArthNangar/event_aquarium",
-      liveDemo: "https://event-aquarium-nine.vercel.app/",
+      liveDemo: "https://event-aquarium.vercel.app/",
       image: eventsImg,
     },
     {
