@@ -119,13 +119,13 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="text-lg px-8 py-6 border-secondary/50 hover:bg-secondary/10"
-              onClick={() => window.open('https://drive.google.com/file/d/1HR71qwuMuMjnktSQnr3uBc69CAvC_QRr/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1lJ9ROjnidnXxaxFCB7nsO8uOXMM_zwC9/view?usp=sharing', '_blank')}
             >
               Resume
             </Button>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
@@ -137,7 +137,7 @@ const Hero = () => {
             >
               <ArrowDown size={32} />
             </button>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
