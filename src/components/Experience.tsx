@@ -12,7 +12,7 @@ const Experience = () => {
      {
       year: "2025 - 2027",
       title: "Graduate Studies",
-      company: "New Jersey Insitute of Technology, New Jersey, USA",
+      company: "New Jersey Institute of Technology, New Jersey, USA",
       description: "Major in Computer Science. Semester-1 Coursework: Database Mgt Systems Design, Operating Systems,  Python for Web API . Current GPA: 3.67",
       type: "education" as const,
     },

@@ -57,7 +57,7 @@ const Contact = () => {
 
               <div className="space-y-4">
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground font-space">
-                  Get In Touch
+                  Hire Me, Maybe??
                 </h3>
 
                 <p className="flex items-center justify-center gap-2 text-lg md:text-xl text-muted-foreground">
@@ -107,7 +107,7 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 1.2 }}
           className="text-center mt-16 text-muted-foreground"
         >
-          <p>© 2025 Arth Nangar. All Rights Reserved </p>
+          <p>© 2026 Arth Nangar. From Code to Intelligence</p>
         </motion.div>
       </div>
     </section>
