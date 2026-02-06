@@ -94,15 +94,6 @@ const About = () => {
               </div>
             </div> */}
           </motion.div>
-          
-           <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.6, delay: 1.2 }}
-          className="text-center mt-16 text-muted-foreground"
-        >
-          <p>© 2026 Arth Nangar. From Code to Intelligence</p>
-        </motion.div>
         </div>
       </div>
     </section>
